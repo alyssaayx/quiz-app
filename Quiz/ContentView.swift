@@ -26,6 +26,7 @@ struct ContentView: View {
             
             Text(questions[currentQuestion].title)
                 .padding()
+                .foregroundColor(Color.purple)
             
             HStack {
                 VStack{
